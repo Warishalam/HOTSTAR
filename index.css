@@ -1,0 +1,76 @@
+#searchBar {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    outline: 0;
+  }
+  #box {
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  #movieList {
+    width: 90%;
+    padding: 10px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    max-height: 250px;
+    overflow: scroll;
+  }
+  #movieList::-webkit-scrollbar {
+    width: 5px;
+  }
+  #movieList::-webkit-scrollbar-track {
+    background: white;
+  }
+  #movieList::-webkit-scrollbar-thumb {
+    background: rgb(169, 168, 168);
+  }
+  #movieList::-webkit-scrollbar-thumb:hover {
+    background: rgb(169, 168, 168);
+  }
+  .titles {
+    padding: 10px;
+    margin: auto;
+    margin-left: 0;
+  }
+  .moviesDiv {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* border-radius: 10px; */
+    margin: 5px;
+  }
+  .moviesDiv:hover {
+    cursor: pointer;
+  }
+  .moviesImage {
+    width: 45px;
+    height: 45px;
+  }
+  #movieCard{
+      /* border: 1px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+      padding: 10px;
+      margin: auto;
+      width: 400px;
+      text-align: center;
+  }
+  #cardImage{
+      width: 100%;
+      height: 400px;
+  }
+  #movieCard>p{
+      margin: 5px;
+  }
+  #movieCard>h2{
+      margin: 10px;
+  }
+  #errorHead{
+      text-align: center;
+  }
